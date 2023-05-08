@@ -1,0 +1,117 @@
+% 我们读取原始照片并在屏幕上显示。
+imgs = imread('RanGuangjie-004.jpg');
+figure; imshow(imgs);
+
+
+% 如果照片是RGB，就属于if条件。
+if(size(imgs, 3) > 1)
+    % 我们创建一个矩阵，在其中分配我们将在照片上应用的过滤操作的结果。
+    filtered_imgs2 = zeros(size(imgs, 1), size(imgs, 2));
+    % 通过size(photo, 1)和size(photo, 2)，我们得到照片的宽度和高度值，并开始for循环。
+    for i = 1:size(imgs,1)
+        for j = 1:size(imgs,2)
+            R = imgs(i,j,1);
+            G = imgs(i,j,2);
+            B = imgs(i,j,3);
+
+           % 我们对皮肤颜色值应用一个条件，考虑到图像中每个像素的RGB值。 
+           % 这确保在新的图像中，皮肤颜色是白色，而图像中的其他颜色是黑色。
+            if(R > 95 && G > 40 && B > 20)
+                v = [R G B];
+                if((max(v) - min(v)) > 15)
+                    if(abs(R-G) > 15 && R > G && R > B)
+                        % 在上面使用零函数创建的矩阵中，如果像素不在RGB皮肤颜色范围内，我们就不去碰它（矩阵已经由0组成，不需要再分配了）。
+                        % 在RGB皮肤颜色范围内，我们给矩阵赋值为1。
+                        filtered_imgs2(i,j) = 1;
+                    end
+                end
+            end
+        end
+    end
+end 
+
+filtered_imgs1 = im2bw(filtered_imgs2);
+% 将照片转换为黑白后，我们用imfill()来填充白色区域，使白色区域没有小黑点。
+filtered_imgs = imfill(filtered_imgs1, 'holes');
+figure,imshow(filtered_imgs);title('black-white');
+figure,imshow(filtered_imgs);
+
+% 我们把找到的面的坐标值作为面的坐标形式的矩阵。
+facets_coordinate = faceFindin('imgs.jpg');
+
+% 面的矩阵，例如
+% [ a b c d
+%   e f g h
+%   k l m n ] freezing.我们为M和N指定了矩阵的维度，以便将来使用.
+[M, N] = size(facets_coordinate);
+face_coordinate = zeros(1, 4);
+z = 1;
+
+% 我们使用regionprops来冻结照片中的白色区域和形状的中心坐标。
+s = regionprops(filtered_imgs, 'BoundingBox');
+
+% 我们读取原始照片并坚持下去，以确保在原始照片上进行取景操作。
+imshow(imgs);
+hold on;
+
+% M在向我展示你在照片中发现了多少张脸。
+% 对于每个面的坐标，我们进行以下操作。
+for x = 1:M 
+    % q，这样我们就可以把单个面的坐标分配给先前定义的面的坐标矩阵。
+    q = 1;
+    
+    % 我们上面使用的人脸识别功能为每张脸提供了4个值。
+    % 例如，如果他认出了照片中的3张脸
+    % [ a b c d
+    %   e f g h
+    %   k l m n ] freezing.
+    % a是面的左上方的x坐标，b是面的左上方的y坐标
+    %c是面部从左到右的尺寸，d是面部从上到下的尺寸。
+    % a b c c d 一侧的坐标，e f g h 第二侧的坐标，k l m n 第三侧的坐标
+    % 由于我们不能像其他编程语言那样，用下面的for循环从上面的矩阵中获得前4个值
+    % 通过z:M:M*N，我们得到第一个面的坐标为1,3,5,7。
+    % 因为我们在第二个面的下面加上+1，所以我们得到第二个面的2,4,6,8......。
+    for i = z:M:M*N
+        face_coordinate(q) = facets_coordinate(i);
+        q = q + 1;
+    end
+
+    yface_half_en = face_coordinate(3) / 2;
+    yface_half_boy = face_coordinate(4) / 4;
+
+    % 我们通过以下操作找到照片中人脸的中心坐标。
+    face_center_x = (face_coordinate(1) + (face_coordinate(1) + face_coordinate(3))) / 2;
+    face_center_y = (face_coordinate(2) + (face_coordinate(2) + face_coordinate(4))) / 2;
+    
+    for k = 1:length(s)
+     border = s(k).BoundingBox;
+     % 与BBOX中的矩阵一样，边界包含具有相同特征的矩阵。
+     shape_x = border(1);
+     shape_y = border(2);
+     shape_en = border(3);
+     shape_boy = border(4);
+     
+     %我们通过以下操作找到照片中任何白色形状的中心坐标。
+     shape_center_x = (shape_x + (shape_x + shape_en)) / 2;
+     shape_center_y = (shape_y + (shape_y + shape_boy)) / 2;
+
+       if (((face_center_x + yface_half_boy) > shape_center_x && shape_center_x > (face_center_x - yface_half_boy)) && ((face_center_y + yface_half_boy) > shape_center_y && shape_center_y > (face_center_y - yface_half_boy)))   
+          % 我们从fake_x / 2中减去脸部的一半，而从fake_y中减去脸部的一半，通常是因为脸部周围的周长接近于高度=3/2 *宽度的比例。
+          rectangle('Position',[(shape_center_x - (yface_half_en)) (shape_center_y - (yface_half_boy*2)) shape_en shape_boy],'EdgeColor','r','LineWidth',2);
+          disp('检测到人脸')
+       end
+        
+       
+       
+       
+       
+    end
+    z = z + 1;
+end
+
+counter = counter + 1;
+s1 = int2str(counter);
+s2 = ' yface(s)';
+s = strcat(s1, s2);
+title(s);
+
