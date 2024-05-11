@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T03:46:10.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="uGbhzEzeOzHnIEniB0kF" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T04:46:52.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="J732TBzHpx2aSGYMbKOY" version="24.4.0" type="github">
   <diagram name="第 1 页" id="MwQK_PsTrnuAOYf0lSXi">
     <mxGraphModel dx="1099" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
             <mxPoint x="420.16666666666674" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HWDHlVqQiTKd7jb5pM2E-20" value="禁区闯入计算开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-20" value="通用禁区闯入计算开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="370" y="690" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HWDHlVqQiTKd7jb5pM2E-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-22" target="HWDHlVqQiTKd7jb5pM2E-26">
@@ -92,7 +92,7 @@
           <mxGeometry x="550" y="1058" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HWDHlVqQiTKd7jb5pM2E-33" value="禁区闯入计算结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="370.16666666666674" y="1199.9999999999998" width="100" height="60" as="geometry" />
+          <mxGeometry x="369.9966666666667" y="1209.9999999999998" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
