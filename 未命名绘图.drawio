@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T02:48:16.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.0" etag="alhyRn6RsSGQyewL1mdd" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T03:01:46.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="X2w5f_mn7oXkKsQjI93W" version="24.4.0" type="github">
   <diagram name="第 1 页" id="MwQK_PsTrnuAOYf0lSXi">
-    <mxGraphModel>
+    <mxGraphModel dx="1099" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-1" target="HWDHlVqQiTKd7jb5pM2E-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-1" value="绘制禁区开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="115" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-4" target="HWDHlVqQiTKd7jb5pM2E-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-4" value="接收绘制禁区信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="110" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-6" target="HWDHlVqQiTKd7jb5pM2E-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414.3333333333335" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-6" target="HWDHlVqQiTKd7jb5pM2E-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-6" value="判断禁区是否为原点辐射,或多边形集合为多边形否闭合,没闭合就末尾添加上起始点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="200" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-9" target="HWDHlVqQiTKd7jb5pM2E-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414.3333333333335" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-9" value="将完善的信息保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354.0033333333335" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-10" value="y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="380" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-13" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-15" value="信息结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364.5033333333335" y="524" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-16" target="HWDHlVqQiTKd7jb5pM2E-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-16" value="其他业务禁区绘制" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
