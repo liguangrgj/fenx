@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T03:01:46.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="X2w5f_mn7oXkKsQjI93W" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T03:46:10.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="uGbhzEzeOzHnIEniB0kF" version="24.4.0" type="github">
   <diagram name="第 1 页" id="MwQK_PsTrnuAOYf0lSXi">
     <mxGraphModel dx="1099" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,14 +43,56 @@
         <mxCell id="HWDHlVqQiTKd7jb5pM2E-13" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="350" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HWDHlVqQiTKd7jb5pM2E-15" value="信息结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-15" value="绘制禁区结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="364.5033333333335" y="524" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HWDHlVqQiTKd7jb5pM2E-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-16" target="HWDHlVqQiTKd7jb5pM2E-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HWDHlVqQiTKd7jb5pM2E-16" value="其他业务禁区绘制" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-16" value="其他业务禁区绘制开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="190" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-20" target="HWDHlVqQiTKd7jb5pM2E-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.16666666666674" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-20" value="禁区闯入计算开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="690" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-22" target="HWDHlVqQiTKd7jb5pM2E-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.16666666666674" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-22" value="接收需要计算的点,以及需要计算的禁区类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="790" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-26" target="HWDHlVqQiTKd7jb5pM2E-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-26" target="HWDHlVqQiTKd7jb5pM2E-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-26" value="计算判断点位是否位于禁区内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="910" width="205" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HWDHlVqQiTKd7jb5pM2E-27" target="HWDHlVqQiTKd7jb5pM2E-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420.16666666666674" y="1229.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-27" value="返回一个所在禁区集合列表,给上是否位于禁区标识" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-29" value="是&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1073" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-31" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1058" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-33" value="禁区闯入计算结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370.16666666666674" y="1199.9999999999998" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
