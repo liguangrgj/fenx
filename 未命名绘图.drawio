@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T08:51:15.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="W8BDHlesaTU2aR_CSczh" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T09:28:37.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UdldvReelUBEJhMTSPur" version="24.4.0" type="github">
   <diagram name="第 1 页" id="MwQK_PsTrnuAOYf0lSXi">
-    <mxGraphModel dx="2146" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
         <mxCell id="HWDHlVqQiTKd7jb5pM2E-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HWDHlVqQiTKd7jb5pM2E-6" target="HWDHlVqQiTKd7jb5pM2E-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HWDHlVqQiTKd7jb5pM2E-6" value="判断区域是否为原点辐射,或多边形集合为多边形否闭合,没闭合就末尾添加上起始点" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-6" value="判断区域是否为原点辐射,&lt;div&gt;或多边形集合为多边形否闭合,没闭合就末尾添加上起始点,区域来源不能为null&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294.5" y="200" width="240" height="190" as="geometry" />
         </mxCell>
         <mxCell id="HWDHlVqQiTKd7jb5pM2E-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HWDHlVqQiTKd7jb5pM2E-9" target="HWDHlVqQiTKd7jb5pM2E-15" edge="1">
@@ -161,13 +161,44 @@
           <mxGeometry x="389.5" y="3240" width="65" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-59" value="在此处绘制多边形区域或标点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-208" y="2770" width="548" height="470" as="geometry" />
+          <mxGeometry x="-213.5" y="2800" width="548" height="470" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-61" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="-130" y="2883" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-62" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#99FF33;" vertex="1" parent="1">
           <mxGeometry x="170" y="2893" width="22.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-63" value="区域绘制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-213.5" y="2760" width="73.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-64" value="辐射打点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="2760" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-67" target="kHAz-CfNLVTGYXqm2shz-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-67" value="关闭开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-227.97000000000003" y="1" width="96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-69" target="kHAz-CfNLVTGYXqm2shz-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="201.02374999999984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-69" value="接收绘制区域信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-243.47000000000003" y="101" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-74" target="kHAz-CfNLVTGYXqm2shz-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180.13666666666654" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-74" value="关闭对应区域启用状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240.46666666666653" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-77" value="关闭结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-229.96666666666653" y="320" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
