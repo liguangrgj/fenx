@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T09:28:37.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="UdldvReelUBEJhMTSPur" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T01:09:13.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LR23ialyn2GRIA8oJuc1" version="24.4.0" type="github">
   <diagram name="第 1 页" id="MwQK_PsTrnuAOYf0lSXi">
     <mxGraphModel dx="2514" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
             <mxPoint x="414.3333333333335" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HWDHlVqQiTKd7jb5pM2E-9" value="将完善的信息保存" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="HWDHlVqQiTKd7jb5pM2E-9" value="将完善的信息保存,返回一个区域主键" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354.0033333333335" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HWDHlVqQiTKd7jb5pM2E-10" value="y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -186,7 +186,7 @@
             <mxPoint x="-180" y="201.02374999999984" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHAz-CfNLVTGYXqm2shz-69" value="接收绘制区域信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-69" value="接收绘制区域主键信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-243.47000000000003" y="101" width="126" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-74" target="kHAz-CfNLVTGYXqm2shz-77">
@@ -199,6 +199,56 @@
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-77" value="关闭结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-229.96666666666653" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-86" target="kHAz-CfNLVTGYXqm2shz-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-395.33333333333326" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-86" value="禁区授权开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-445.5" y="550" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-88" target="kHAz-CfNLVTGYXqm2shz-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-395.33333333333326" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-88" value="接收禁区标识以及人员/车辆标识信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-465.5" y="650" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-91" target="kHAz-CfNLVTGYXqm2shz-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-91" target="kHAz-CfNLVTGYXqm2shz-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-395.17647058823513" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-91" value="计算判断点位是否位于管制区内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-498" y="750" width="205" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-93" target="kHAz-CfNLVTGYXqm2shz-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-395.33333333333326" y="1089.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-93" value="返回一个所在禁区集合列表,给上是否位于禁区标识" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-455.5" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-94" value="是&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-375.5" y="920" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-95" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-253.5" y="910" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-96" value="闯入计算结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-445.50333333333333" y="1189.9999999999998" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHAz-CfNLVTGYXqm2shz-99" target="kHAz-CfNLVTGYXqm2shz-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-99" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-502.13" y="940" width="213.25" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
