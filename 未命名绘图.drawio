@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T02:02:06.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="bq_aauqdavphxRVyvDZP" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T01:23:22.908Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="1AF7bOD4GFstN5prAy6m" version="24.4.0" type="github">
   <diagram name="第 1 页" id="MwQK_PsTrnuAOYf0lSXi">
-    <mxGraphModel dx="2514" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3341" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,17 +443,17 @@
         <mxCell id="kHAz-CfNLVTGYXqm2shz-157" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-612.97" y="2140" width="481" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="kHAz-CfNLVTGYXqm2shz-158" value="授权人员手机号:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-579.19" y="2380" width="330.88" height="40" as="geometry" />
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-158" value="驾驶人员手机号:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-580.3800000000001" y="2400" width="330.88" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kHAz-CfNLVTGYXqm2shz-159" value="授权人员mac号:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-578" y="2530" width="328.5" height="40" as="geometry" />
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-159" value="驾驶人员mac号:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-578" y="2460" width="328.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-160" value="授权车牌号:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-581.25" y="2430" width="328.5" height="40" as="geometry" />
+          <mxGeometry x="-580.38" y="2345" width="328.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-161" value="授权区域名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-578" y="2260" width="322" height="40" as="geometry" />
+          <mxGeometry x="-580.38" y="2290" width="322" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-162" value="确认&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%8E%88%E6%9D%83%E4%BA%BA%E5%91%98mac%E5%8F%B7%3A%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-466.12%22%20y%3D%222210%22%20width%3D%22328.5%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="2600" width="120" height="60" as="geometry" />
@@ -462,13 +462,16 @@
           <mxGeometry x="-389" y="2600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-164" value="授权人员名称:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-578" y="2320" width="322" height="40" as="geometry" />
+          <mxGeometry x="-1020" y="2385" width="322" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-166" value="已有授权:张三,李四,新M9857" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-578" y="2190" width="330" height="60" as="geometry" />
+          <mxGeometry x="-580.38" y="2170" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kHAz-CfNLVTGYXqm2shz-168" value="授权开始-结束时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-581.47" y="2480" width="338" height="40" as="geometry" />
+          <mxGeometry x="-573.38" y="2530" width="338" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kHAz-CfNLVTGYXqm2shz-171" value="是否车辆: 是" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-578" y="2230" width="308" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
