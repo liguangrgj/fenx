@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T06:32:39.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.1" etag="ZPWB89Uply2xZkOYmm_6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T06:55:45.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="AfyUrpnoETpadwnMlqPB" version="24.5.1" type="github">
   <diagram name="第 1 页" id="Tz6BF3qFOOqN4Vy4te1P">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NkjtDp-KnQa59EwCnycX-5" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="50" width="330" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="NkjtDp-KnQa59EwCnycX-6" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;隐患描述&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;认定状态&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;整改状态" style="whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="270" y="140" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NkjtDp-KnQa59EwCnycX-7" value="此处有危险,需要整改&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;已认定&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; 整改中&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NkjtDp-KnQa59EwCnycX-9" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NkjtDp-KnQa59EwCnycX-10" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NkjtDp-KnQa59EwCnycX-11" value="承包商隐患管理" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="50" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NkjtDp-KnQa59EwCnycX-12" value="已认定淡绿色" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkjtDp-KnQa59EwCnycX-13" value="待认定淡红色" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NkjtDp-KnQa59EwCnycX-14" value="不认定淡黄色" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="188" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
