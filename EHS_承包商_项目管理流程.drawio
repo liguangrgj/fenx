@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T03:39:13.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.5.4" etag="sXCXoalcqvgzk9drlEIN" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T03:57:29.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0_9OputBVJEppYh0fAKD" version="24.5.4" type="github">
   <diagram name="第 1 页" id="xAA_DHbY9KRRcZTyKf3G">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-2" value="承包商项目开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="88.75" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L-d3JoaC-vR0mEOBIoRV-5" target="L-d3JoaC-vR0mEOBIoRV-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-5" value="由承包商账号添加项目必要信息，可以直接提交审核，也可以保存草稿：承包商-&amp;gt;项目管理-&amp;gt;新增项目" style="whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-d3JoaC-vR0mEOBIoRV-8" target="L-d3JoaC-vR0mEOBIoRV-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-8" value="系统管理员可以直接审核或协助完善信息&lt;div&gt;:&lt;span style=&quot;background-color: initial;&quot;&gt;承包商-&amp;gt;项目管理-&amp;gt;选定承包商-&amp;gt;选定条目-&amp;gt;操作&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="270" width="227.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L-d3JoaC-vR0mEOBIoRV-10" target="L-d3JoaC-vR0mEOBIoRV-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L-d3JoaC-vR0mEOBIoRV-10" target="L-d3JoaC-vR0mEOBIoRV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-10" value="管理员审核项目" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="88.75" y="430" width="155" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-12" value="添加项目结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="105" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-14" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="656" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-15" value="驳回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="610" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L-d3JoaC-vR0mEOBIoRV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L-d3JoaC-vR0mEOBIoRV-2" target="L-d3JoaC-vR0mEOBIoRV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
